@@ -1,0 +1,1 @@
+execute as @e[type=arrow] if items entity @s contents minecraft:tipped_arrow[potion_contents={custom_color:5373952}] as @s[nbt={inGround:true}] at @s run function skullgaminghq:torch_arrow/place_torch
