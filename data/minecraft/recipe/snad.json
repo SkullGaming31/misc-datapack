@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##!"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:suspicious_sand"
+    },
+    "!": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "result": {
+    "id": "snad:snad"
+  }
+}

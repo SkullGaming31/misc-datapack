@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying"
+        }
+      ],
+      "rolls": 1,
+      "functions": [
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": {"chargable_token": true}
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:max_damage": 32,
+            "minecraft:damage": 0
+          }
+        },
+        {
+          "function": "minecraft:set_damage",
+          "damage": {
+            "min": 0.1,
+            "max": 0.5
+          }
+        },
+        {
+          "function": "minecraft:reference",
+          "name": "skullgaminghq:totem_update"
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "minecraft:emerald"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:entities/evoker"
+}

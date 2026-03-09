@@ -1,0 +1,25 @@
+{
+  "parent": "skullgaminghq:charcoal/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:tipped_arrow"
+    },
+    "title": {
+      "text": "Let There Be Light"
+    },
+    "description": {
+      "text": "Long Range Illumination, craft a Torch Arrow using a Campfire with an arrow"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "torch_arrow": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "skullgaminghq:torch_arrow"
+      }
+    }
+  }
+}

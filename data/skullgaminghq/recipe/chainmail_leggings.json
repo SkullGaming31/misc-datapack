@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_bars"
+    },
+    "C": {
+      "item": "minecraft:iron_leggings"
+    }
+  },
+  "result": {
+    "id": "minecraft:chainmail_leggings",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:blast_protection": 1
+        },
+        "show_in_tooltip": true
+      },
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "id": "6fb2a394-9f35-4caf-a016-192031053217",
+            "amount": 6,
+            "operation": "add_value",
+            "slot": "legs"
+          }
+        ]
+      }
+    },
+    "count": 1
+  }
+}

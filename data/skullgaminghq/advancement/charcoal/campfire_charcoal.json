@@ -1,0 +1,24 @@
+{
+  "parent": "skullgaminghq:charcoal/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:charcoal"
+    },
+    "title": {
+      "text": "Renewable Energy",
+      "bold": true
+    },
+    "description": {
+      "text": "Create charcoal using a campfire instead of a furnace"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "campfire_charcoal": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

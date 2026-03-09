@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "modern_industrialization:torch"
+    }
+  ],
+  "result": {
+    "item": "minecraft:air"
+  }
+}

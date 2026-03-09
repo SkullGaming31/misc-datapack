@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_bars"
+    },
+    "C": {
+      "item": "minecraft:iron_boots"
+    }
+  },
+  "result": {
+    "id": "minecraft:chainmail_boots",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:blast_protection": 1
+        },
+        "show_in_tooltip": true
+      },
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "id": "5e1661f3-920c-4477-8f13-819557a1c0bc",
+            "amount": 6,
+            "operation": "add_value",
+            "slot": "feet"
+          }
+        ]
+      }
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_bars"
+    },
+    "C": {
+      "item": "minecraft:iron_chestplate"
+    }
+  },
+  "result": {
+    "id": "minecraft:chainmail_chestplate",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:blast_protection": 1
+        },
+        "show_in_tooltip": true
+      },
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "id": "4b7d7061-38bd-4d07-8a31-a8fcb3328285",
+            "amount": 6,
+            "operation": "add_value",
+            "slot": "chest"
+          }
+        ]
+      }
+    },
+    "count": 1
+  }
+}

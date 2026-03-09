@@ -1,0 +1,3 @@
+scoreboard objectives add skull_cf_ticks dummy
+scoreboard objectives add skull_stack_count dummy
+scoreboard objectives add skull_timer dummy

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "group": "Tipped Arrow",
+  "category": "misc",
+  "ingredient": {
+    "item": "minecraft:arrow"
+  },
+  "result": {
+    "id": "minecraft:tipped_arrow",
+    "components": {
+      "minecraft:item_name": "\"Torch Arrow\"",
+      "minecraft:potion_contents": {
+        "custom_color": 5373952
+      },
+      "minecraft:hide_additional_tooltip": {}
+    }
+  },
+  "experience": 0,
+  "cookingtime": 600
+}

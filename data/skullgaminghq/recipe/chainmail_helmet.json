@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_bars"
+    },
+    "C": {
+      "item": "minecraft:iron_helmet"
+    }
+  },
+  "result": {
+    "id": "minecraft:chainmail_helmet",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:blast_protection": 1
+        },
+        "show_in_tooltip": true
+      },
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "id": "608a0495-eb2f-4396-9abc-56d4ed45efef",
+            "amount": 6,
+            "operation": "add_value",
+            "slot": "head"
+          }
+        ]
+      }
+    },
+    "count": 1
+  }
+}
