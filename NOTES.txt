@@ -1,2 +1,0 @@
-https://minecraft.wiki/w/Data_pack
-right clicking with an axe on a stripped oak log only works if you right infront of it
