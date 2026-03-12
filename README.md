@@ -4,7 +4,7 @@ Small Minecraft Java Edition datapack containing various small features.
 
 Usage
 - Put this folder in your world's `datapacks/` directory.
-- In-game run `/reload` to load the datapack.
+- In-game run `/datapack available file/misc_datapack` to load the datapack.
 
 Create & push to GitHub (recommended name: `misc-datapack`)
 Using GitHub CLI (`gh`) — run from this folder:
