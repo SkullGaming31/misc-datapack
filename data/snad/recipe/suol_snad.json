@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:soul_sand"
+    },
+    "b": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "pattern": [
+    "##b"
+  ],
+  "result": {
+    "id": "snad:suol_snad"
+  }
+}

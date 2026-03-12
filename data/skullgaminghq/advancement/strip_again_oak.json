@@ -1,61 +1,53 @@
-  ,
-  "rewards": {
-    "function": "skullgaminghq:strip/on_stripped"
-  }
-      "bold": true,
-  "italic": true,
-  "obfuscated": false
-},
-"description": {
-  "text": "stripped a log for planks, Nice!!",
-  "bold": true,
-  "italic": true
-},
-"icon": {
-  "id": "minecraft:oak_log"
-},
-"frame": "task",
-"show_toast": true,
-"announce_to_chat": true,
-"hidden": false
-},
-"criteria": {
-"log": {
-  "trigger": "minecraft:item_used_on_block",
-  "conditions": {
-    "player": {
-      "equipment": {
-        "mainhand": {
-          "items": [
-            "minecraft:stone_axe",
-            "minecraft:iron_axe",
-            "minecraft:diamond_axe",
-            "minecraft:netherite_axe"
-          ]
-        }
-      }
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_log"
     },
-    "location": [
-      {
-        "condition": "minecraft:location_check",
-        "predicate": {
-          "block": {
-            "blocks": [
-              "minecraft:stripped_oak_log",
-              "minecraft:stripped_acacia_log",
-              "minecraft:stripped_birch_log",
-              "minecraft:stripped_dark_oak_log",
-              "minecraft:stripped_jungle_log",
-              "minecraft:stripped_spruce_log"
-            ]
+    "title": {
+      "text": "Strip Again"
+    },
+    "description": {
+      "text": "Stripped a log for planks — Nice!!"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "log": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:stone_axe",
+                "minecraft:iron_axe",
+                "minecraft:diamond_axe",
+                "minecraft:netherite_axe"
+              ]
+            }
           }
-        }
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:stripped_oak_log",
+                  "minecraft:stripped_acacia_log",
+                  "minecraft:stripped_birch_log",
+                  "minecraft:stripped_dark_oak_log",
+                  "minecraft:stripped_jungle_log",
+                  "minecraft:stripped_spruce_log"
+                ]
+              }
+            }
+          }
+        ]
       }
-    ]
+    }
   }
-}
-},
-"rewards": {
-"function": "skullgaminghq:strip/debug_adv"
-}
 }

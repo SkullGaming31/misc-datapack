@@ -1,5 +1,8 @@
 #Torch Arrow
 execute as @e[type=arrow] if items entity @s contents minecraft:tipped_arrow[potion_contents={custom_color:5373952}] as @s[nbt={inGround:true}] at @s run function skullgaminghq:torch_arrow/place_torch
+# Fan: run fan logic for each item frame (wind charges in frames)
+execute as @e[type=minecraft:item_frame] at @s run function skullgaminghq:fan/fan_tick
+ 
 
 ### 0) Convert pending strip markers to interaction entities (markers are created by spawn_nearby)
 execute as @e[type=minecraft:armor_stand,tag=skull_strip_pending] at @s run summon minecraft:interaction ~ ~ ~ {Tags:["skull_strip_target","skull_strip_new"],width:1.2f,height:1.2f,response:1b}
@@ -27,6 +30,10 @@ execute as @e[type=minecraft:interaction,tag=skull_strip_target] at @s unless en
   if data entity @s interaction \
   on target if items entity @s weapon.mainhand #minecraft:axes \
   run summon minecraft:item ~0.5 ~0.5 ~0.5 {Item:{id:"minecraft:oak_planks",count:4}}
+execute as @e[type=minecraft:interaction,tag=skull_strip_target] at @s unless entity @s[tag=skull_strip_new] \
+  if data entity @s interaction \
+  if entity @p[distance=..3,limit=1,sort=nearest] \
+  run advancement grant @p[distance=..3,limit=1,sort=nearest] only skullgaminghq:strip_again_oak
 
 # 3c) Optional feedback at the broken-block location
 execute as @e[type=minecraft:interaction,tag=skull_strip_target] at @s unless entity @s[tag=skull_strip_new] \

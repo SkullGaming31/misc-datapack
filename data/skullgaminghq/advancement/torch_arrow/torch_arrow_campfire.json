@@ -1,5 +1,4 @@
 {
-  "parent": "skullgaminghq:charcoal/root",
   "display": {
     "icon": {
       "id": "minecraft:tipped_arrow"

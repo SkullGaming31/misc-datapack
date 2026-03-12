@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "used_stripped_oak": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "block": "minecraft:stripped_oak_log",
+        "item": {
+          "tag": "minecraft:axes"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "skullgaminghq:strip/extra_oak"
+  }
+}

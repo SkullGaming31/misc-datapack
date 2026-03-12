@@ -9,10 +9,19 @@
     "id": "minecraft:tipped_arrow",
     "components": {
       "minecraft:item_name": "\"Torch Arrow\"",
-      "minecraft:potion_contents": {
-        "custom_color": 5373952
+      "minecraft:hide_additional_tooltip": {},
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:entity_data": {
+        "id": "minecraft:arrow",
+        "Glowing": true
       },
-      "minecraft:hide_additional_tooltip": {}
+      "minecraft:potion_contents": {
+        "custom_color": 5373952,
+        "custom_name": "\"Torch Arrow\""
+      },
+      "minecraft:lore": [
+        "\"Glowing arrow that emits light While soaring through the air\""
+      ]
     }
   },
   "experience": 0,

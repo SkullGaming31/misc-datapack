@@ -4,7 +4,9 @@
   "predicate": {
     "stepping_on": {
       "block": {
-        "blocks": "#skullgaminghq:fast_blocks"
+        "blocks": [
+          "#skullgaminghq:fast_blocks"
+        ]
       }
     }
   }
