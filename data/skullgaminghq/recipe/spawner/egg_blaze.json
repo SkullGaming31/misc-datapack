@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Spawn Egg",
+  "key": {
+    "s": {
+      "item": "minecraft:blaze_rod"
+    },
+    "e": {
+      "item": "minecraft:egg"
+    }
+  },
+  "pattern": [
+    "eee",
+    "eSe",
+    "eee"
+  ],
+  "result": {
+    "id": "minecraft:blaze_spawn_egg",
+    "count": 1
+  }
+}

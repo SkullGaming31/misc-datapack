@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Spawn Egg",
+  "category": "misc",
+  "pattern": [
+    "eee",
+    "eAe",
+    "eee"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "e": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "id": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  }
+}

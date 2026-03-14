@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "a": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "pattern": [
+    "lll",
+    "lal"
+  ],
+  "result": {
+    "id": "minecraft:saddle",
+    "count": 1
+  }
+}
